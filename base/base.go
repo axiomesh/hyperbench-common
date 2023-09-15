@@ -90,6 +90,10 @@ func (b *BlockchainBase) GetRandomAccount(addr string) string {
 	return ""
 }
 
+func (b *BlockchainBase) GetContractAddrByName(name string) string {
+	return ""
+}
+
 // NewBlockchainBase new blockchain base.
 func NewBlockchainBase(clientConfig ClientConfig) *BlockchainBase {
 	return &BlockchainBase{
