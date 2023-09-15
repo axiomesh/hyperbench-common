@@ -45,6 +45,9 @@ type Blockchain interface {
 	// GetRandomAccount get random account except addr
 	GetRandomAccount(addr string) string
 
+	// GetAccount get account of index
+	GetAccount(index uint64) string
+
 	// GetRandomAccountByGroup get random account by group
 	GetRandomAccountByGroup() string
 
